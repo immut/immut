@@ -1,4 +1,4 @@
-const { IMap } = require("./immut.js");
+const { IMap } = require("./index.js");
 
 test("IMap constructor should create object", () => {
   expect(IMap({"a": 1}).a).toBe(1);
